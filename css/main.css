@@ -310,7 +310,7 @@ html>body noindex:-o-prefocus, html>body .b-header-hallowin
    margin: 0px;
    list-style-type: none;
    display: none;
-   display: block !ie;
+   display: block;
    z-index: 10;
 }
 
@@ -2611,7 +2611,7 @@ page-catalog .b-showcase .photo {
 /* authorisation */
 .b-page-auth {
    padding: 70px 28px 25px 30px;
-   padding: 20px 28px 25px 30px !ie;
+   padding: 20px 28px 25px 30px;
    background-image: url(/static/images/backgrounds/content-page2.png);
    width: 577px
 }
@@ -3937,7 +3937,7 @@ a.button-war-guild.active {
    width: 31px;
    background: url(/static/images/buttons/ratings/class_icon.png) no-repeat;
    margin: -5px 0 -5px 15px;
-   margin: -3px 0px 0px 0px !ie;
+   margin: -3px 0px 0px 0px;
 }
 
 .b-page-ratings .charclass.id1 {
@@ -4024,7 +4024,7 @@ a.button-war-guild.active {
 }
 
 .b-page-ratings-new-guild table tr, .b-page-ratings table tr, .b-page-ratings-guild table tr {
-   height: 25px !ie;
+   height: 25px;
    padding: 0;
    margin: 0;
 }
@@ -4040,7 +4040,7 @@ box-shadow: inset 0 0 10px rgba(255,255,255,0.5);*/
 
 .b-page-ratings-new-guild table td, .b-page-ratings table td, .b-page-ratings-guild table td {
    height: 28px;
-   height: 25px !ie;
+   height: 25px;
    font-size: 14px;
    line-height: 14px;
    padding: 0;
