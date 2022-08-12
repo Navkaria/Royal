@@ -430,7 +430,8 @@
 
    #popupCookie .scroll-mb {
        height: calc(100vh - 200px);
-       overflow-y hidden; overflow-x: auto;
+       overflow-y: hidden;
+        overflow-x: auto;
        position: relative;
        padding: 30px 20px 30px 0;
        margin-right: -20px;
@@ -508,7 +509,7 @@
 
    #popupCookie .scroll-mb {
        height: calc(100vh - 200px);
-       overflow-y hidden; overflow-x: auto;
+       overflow-y: hidden; overflow-x: auto;
        position: relative;
        padding: 30px 20px 30px 0;
        margin-right: -20px;
